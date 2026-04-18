@@ -8,6 +8,7 @@
       ./system/time/default.nix
       ./desktop/hyprland/default.nix
       ./desktop/pipewire/default.nix
+      ./desktop/anyrun/default.nix
       ./users/tvconss/default.nix
     ];
 
@@ -41,7 +42,7 @@ environment.systemPackages = with pkgs; [
     (import ./packages/imagemagick/default.nix { inherit pkgs; })
     (import ./packages/vlc/default.nix { inherit pkgs; })
     (import ./packages/mpv/default.nix { inherit pkgs; })
-    (import ./packages/anyrun/default.nix { inherit pkgs; })
+    (import ./packages/waybar/default.nix { inherit pkgs; })
   ];
 
   system.stateVersion = "25.11";

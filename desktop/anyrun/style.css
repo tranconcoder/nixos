@@ -1,0 +1,57 @@
+@define-color accent #89b4fa;
+@define-color bg-color #1e1e2e;
+@define-color selected #89b4fa;
+@define-color selected-bg #45475a;
+@define-color match-bg #313244;
+@define-color text #cdd6f4;
+@define-color subtext #a6adc8;
+
+window {
+  background: transparent;
+}
+
+box.main {
+  padding: 10px;
+  border-radius: 15px;
+  background: @bg-color;
+  border: 2px solid @accent;
+}
+
+entry {
+  color: @text;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+entry:focus {
+  outline: none;
+}
+
+box.matches {
+  background: transparent;
+}
+
+box.plugin {
+  padding: 5px;
+  border-radius: 8px;
+  background: @match-bg;
+}
+
+label {
+  color: @text;
+}
+
+label.match {
+  font-size: 16px;
+}
+
+label.subtext {
+  color: @subtext;
+  font-size: 12px;
+}
+
+image {
+  opacity: 0.7;
+}

@@ -1,3 +1,3 @@
 { pkgs }:
 
-pkgs.anyrun
+pkgs.waybar

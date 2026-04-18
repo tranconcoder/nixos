@@ -29,4 +29,5 @@
   (import ../imagemagick/default.nix { inherit pkgs; })
   (import ../vlc/default.nix { inherit pkgs; })
   (import ../mpv/default.nix { inherit pkgs; })
+  (import ../fcitx5/default.nix { inherit pkgs; })
 ]
