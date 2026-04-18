@@ -1,0 +1,32 @@
+# Auto-generated - do not edit
+{ pkgs }:
+
+[
+  (import ../kitty/default.nix { inherit pkgs; })
+  (import ../nodejs/default.nix { inherit pkgs; })
+  (import ../neovim/default.nix { inherit pkgs; })
+  (import ../google-chrome/default.nix { inherit pkgs; })
+  (import ../postman/default.nix { inherit pkgs; })
+  (import ../dbeaver-bin/default.nix { inherit pkgs; })
+  (import ../opencode/default.nix { inherit pkgs; })
+  (import ../git/default.nix { inherit pkgs; })
+  (import ../curl/default.nix { inherit pkgs; })
+  (import ../wget/default.nix { inherit pkgs; })
+  (import ../unzip/default.nix { inherit pkgs; })
+  (import ../file/default.nix { inherit pkgs; })
+  (import ../htop/default.nix { inherit pkgs; })
+  (import ../rsync/default.nix { inherit pkgs; })
+  (import ../bash/default.nix { inherit pkgs; })
+  (import ../coreutils/default.nix { inherit pkgs; })
+  (import ../gcc/default.nix { inherit pkgs; })
+  (import ../gnumake/default.nix { inherit pkgs; })
+  (import ../python3/default.nix { inherit pkgs; })
+  (import ../docker/default.nix { inherit pkgs; })
+  (import ../ripgrep/default.nix { inherit pkgs; })
+  (import ../fd/default.nix { inherit pkgs; })
+  (import ../fzf/default.nix { inherit pkgs; })
+  (import ../ffmpeg/default.nix { inherit pkgs; })
+  (import ../imagemagick/default.nix { inherit pkgs; })
+  (import ../vlc/default.nix { inherit pkgs; })
+  (import ../mpv/default.nix { inherit pkgs; })
+]
